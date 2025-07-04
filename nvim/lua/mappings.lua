@@ -1,5 +1,4 @@
 local map = vim.keymap.set
-
 -- Essentials
 map('v', '<leader>p', [["_dP]], { noremap = true, silent = true })
 map('n', '<C-[>', '<cmd>noh<CR>')
@@ -33,10 +32,7 @@ map({ 'n', 'i' }, '<A-.>', '<cmd>BufferLineCycleNext<CR>', { desc = 'buffer go t
 map({ 'n', 'i' }, '<A-,>', '<cmd>BufferLineCyclePrev<CR>', { desc = 'buffer go to previous' })
 map({ 'n', 'i' }, '<A-o>', '<cmd>BufferLineMoveNext<CR>', { desc = 'buffer move to next' })
 map({ 'n', 'i' }, '<A-i>', '<cmd>BufferLineMovePrev<CR>', { desc = 'buffer move to previous' })
-<<<<<<< HEAD
-=======
 map('n', '<leader>q', '<cmd>bdelete<CR>', { desc = 'buffer close' })
->>>>>>> e76c4f79ca05b2edde3caf865659b8a7eade5e20
 
 -- Misc
 map('n', '<leader>f', function()
