@@ -3,6 +3,8 @@
 - `scoop install starship`
 - `scoop install gcc`
 - `winget install nushell`
+- Add `C:\Users\<YourUsername>\AppData\Local\nvim-data\mason\bin` to your user path on Windows
+
 
 ```
 mkdir ($nu.data-dir | path join "vendor/autoload")
