@@ -18,15 +18,7 @@ return {
     opts = {
         workspaces = {
             {
-                name = 'college',
-                path = '~/obsidian/college',
-            },
-            {
-                name = 'cs',
-                path = '~/obsidian/cs',
-            },
-            {
-                name = 'work',
+                name = 'mondee',
                 path = '~/obsidian-mondee',
             },
         },
