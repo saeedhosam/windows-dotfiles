@@ -9,8 +9,6 @@ opt.showbreak = '↪ '
 opt.linebreak = true
 opt.breakindent = true
 
-opt.termguicolors = true
-
 o.clipboard = 'unnamedplus'
 o.cursorline = true
 o.cursorlineopt = 'both'
