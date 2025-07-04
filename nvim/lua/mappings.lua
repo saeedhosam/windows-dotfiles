@@ -33,7 +33,7 @@ map({ 'n', 'i' }, '<A-.>', '<cmd>BufferLineCycleNext<CR>', { desc = 'buffer go t
 map({ 'n', 'i' }, '<A-,>', '<cmd>BufferLineCyclePrev<CR>', { desc = 'buffer go to previous' })
 map({ 'n', 'i' }, '<A-o>', '<cmd>BufferLineMoveNext<CR>', { desc = 'buffer move to next' })
 map({ 'n', 'i' }, '<A-i>', '<cmd>BufferLineMovePrev<CR>', { desc = 'buffer move to previous' })
-map({ 'n', 'i' }, '<leader>q', '<cmd>bdelete<CR>', { desc = 'buffer close' })
+map('n', '<leader>q', '<cmd>bdelete<CR>', { desc = 'buffer close' })
 
 -- -- Misc
 -- map('n', '<leader>f', function()
